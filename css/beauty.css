@@ -1,0 +1,28 @@
+.beauty-photo1 img{
+	margin-top: -15%;
+	width: 100%;
+}
+section{
+	background: #F6F6F6;
+}
+.introduce1{
+	padding-top: 2%;
+	font-size: 18px;
+	text-indent: 2em;
+}
+.icon img{
+	margin-top: 3%;
+	width: 100%;
+}
+.beauty-photo2 img{
+	margin-top: 5%;
+	width: 100%;
+}
+.introduce2{
+	padding-top: 2%;
+	font-size: 18px;
+	text-indent: 2em;
+	padding-bottom: 4%;
+	margin-bottom: -1%;
+}
+/*    内容区     END   */

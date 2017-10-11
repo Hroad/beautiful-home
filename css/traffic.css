@@ -1,0 +1,54 @@
+section{
+	background: #F6F6F6;
+	padding-bottom: 2%;
+}
+.traffic-title{
+	padding-top: 3%;
+	margin-top: 5%;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: "宋体";
+	text-indent: 2em;
+}
+.traffic-ftitle1{
+	font-size: 24px;
+	font-family: "宋体";
+	font-weight: bold;
+	margin-top: 6%;
+}
+.introduce6{
+	font-size: 18px;
+	text-indent: 2em;
+}
+.traffic-banner1 img{
+	max-width: 50%;
+	width: 100%;
+	margin-left: 25%;
+}
+.traffic-headinds{
+	font-size: 18px;
+	font-weight: bold;
+	font-family: "宋体";
+	text-indent: 2em;
+	margin-top:4%;
+}
+.introduce7,.introduce8{
+	text-indent: 2em;
+	font-family: "宋体";
+
+}
+.traffic-banner2 img{
+	max-width: 90%;
+	width: 100%;
+	margin-left: 5%;
+}
+.introduce9{
+	font-size: 18px;
+	text-indent: 2em;
+}
+.traffic-banner3 img{
+	max-width: 90%;
+	width: 100%;
+	margin-left: 5%;
+	margin-top: 3%;
+}

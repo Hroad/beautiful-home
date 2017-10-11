@@ -1,0 +1,26 @@
+footer{
+	background: #bbd5ef;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: center;
+}
+.share img{
+	margin-right: 1%;
+}
+footer:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+footer div p{
+	text-indent: 0em;
+	font-size: 14px;
+}
+footer div p a{
+	color: #000;
+}
+footer div p a:hover{
+	text-decoration: none;
+	color: #0B2F5D;
+}
+/*   footer      END   */

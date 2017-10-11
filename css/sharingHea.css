@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	max-width: 750px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+.headertop{
+	width: 100%;
+	background-color: #bbd5ef;
+}
+/*    logo栏的背景色       END   */
+
+.logo img{
+	max-width: 20%;
+	width: 100%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	margin-left: 5%;
+}
+/*  logo   END   */
+
+.title:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+.title img{
+	max-width: 20%;
+	width: 100%;
+	float: left;
+	position: relative;
+	margin-left: 40%;
+	margin-top: -10%;
+}
+/*  title     END   */
+
+.navBtn:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+.navBtn img{
+	max-width: 10%;
+	width: 100%;
+	float: left;
+	position: relative;
+	margin-left: 80%;
+	margin-top: -16%;
+}
+/*   导航按钮      END   */
+
+nav{
+	position: relative;
+	z-index: 1;
+	background: #BBD5EF;
+	margin-top: -6%;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: none;
+	padding-top: 5%;
+	padding-bottom: 2%;
+}
+nav ul li{
+	width: 100%;
+}
+nav ul li a{
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	padding-left: 2%;
+	color: #0b2f5d;
+	transition: all linear .3s;
+}
+nav ul li a:hover {
+  color: #f00;
+  border-bottom: 7px solid #579b6c;
+  background: #ccc;
+  text-decoration: none;
+}
+/*   导航      END  */

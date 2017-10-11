@@ -1,0 +1,36 @@
+.swiper-container{
+	margin-top: -2%;
+}
+.swiper-slide img{
+	width: 100%;
+}
+.swiper-pagination-bullet {
+  width: 1.2rem !important;
+  height: 1.2rem !important;
+  opacity: 1 !important;
+  background: #bbd5ef !important;
+}
+.swiper-pagination-bullet-active {
+  background: #0b2f5d !important;
+  border: 1px solid #fff !important;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  background: rgba(0, 0, 0, 0.2);
+}
+/*   banner    END  */
+
+section{
+	background: #f6f6f6;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+h1{
+	font-size: 36px;
+	font-family: "宋体";
+}
+p{
+	font-size: 20px;
+	font-family: "宋体";
+	text-indent: 2em;
+}

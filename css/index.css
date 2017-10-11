@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	max-width: 750px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.img-responsive{
+	border: 0px;
+	width: 100%;
+}
+/*     背景     END      */
+
+.log{
+	max-width: 15%;
+	width: 100%;
+	margin-top: -160%;
+	margin-left: 40%;
+}
+/*     汉      END   */
+
+.slogan{
+	max-width: 50%;
+	width: 100%;
+	margin-top: 5%;
+	margin-left: 25%;
+}
+/*   标语       END  */
+
+.subtitle{
+	max-width: 35%;
+	width: 100%;
+	margin-left: 32%;
+}
+/*   副标题      END   */
+
+.btn{
+	max-width: 20%;
+	width: 100%;
+	margin-top: 20%;
+	margin-left: 70%;
+	position: relative;
+	z-index: 666;
+	transition: All 1s ease-in-out;
+    -webkit-transition: All 1s ease-in-out;
+    -moz-transition: All 1s ease-in-out;
+    -o-transition: All 1s ease-in-out;
+}
+.btn:hover{
+	transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+/*  按钮      END   */
+
+.main_window{
+  overflow: hidden;
+  display: block;
+  padding: 0;
+  margin: 0 auto;
+	width: 750px;
+	height: 600px;
+  position: fixed;
+}
+div{
+  margin: 0px;
+  padding: 0px;
+}
+
+.cloud{ 
+  background: url(../img/index-cloud.png) no-repeat;
+  position: absolute;
+}
+
+[data-type=white_1]:before{
+  content: "";
+  display: block;
+  width: 64px;
+  height: 40px;
+  top: -20px;
+  left: 20px;
+  background: url(../img/index-cloud.png) no-repeat;
+  position: absolute;
+}
+
+[data-type=white_2]:before{
+  content: "";
+  display: block;
+  width: 64px;
+  height: 40px;
+  top: -20px;
+  left: 25px;
+  position: absolute;
+  background: url(../img/index-cloud.png) no-repeat;
+}
+
+[data-type=white_3]:before{
+  content: "";
+  display: block;
+  width: 64px;
+  height: 40px;
+  top: -20px;
+  left: 25px;
+  position: absolute;
+  background: url(../img/index-cloud.png) no-repeat;
+}
+
+[data-type=white_4]:before{
+  content: "";
+  display: block;
+  width: 64px;
+  height: 40px;
+  top: -20px;
+  left: 20px;
+  background: url(../img/index-cloud.png) no-repeat;
+  position: absolute;
+}
+
+[data-type=white_5]:before{
+  content: "";
+  display: block;
+  width: 64px;
+  height: 40px;
+  top: -20px;
+  left: 25px;
+  background: url(../img/index-cloud.png) no-repeat;
+  position: absolute;
+}
+
+[data-type=white_6]:before{
+  content: "";
+  display: block;
+  width: 64px;
+  height: 40px;
+  top: -20px;
+  left: 25px;
+  background: url(../img/index-cloud.png) no-repeat;
+  position: absolute; 
+}
+
+@-webkit-keyframes linemove
+{
+from {right:-200px;}
+to {right:1456px;}
+}
+@-moz-keyframes linemove
+{
+from {right:-200px;}
+to {right:1456px;}
+}
+@-ms-keyframes linemove
+{
+from {right:-200px;}
+to {right:1456px;}
+}
+@-o-keyframes linemove
+{
+from {right:-200px;}
+to {right:1456px;}
+}
+@keyframes linemove
+{
+from {right:-200px;}
+to {right:1456px;}
+}
+
+
+[data-speed="1"]{
+  animation: linemove 44.01936s;
+  -webkit-animation: linemove 44.01936s;
+
+}
+[data-speed="2"]{
+  animation: linemove 28.67113s;
+  -webkit-animation: linemove 28.67113s;
+
+}
+[data-speed="3"]{
+  animation: linemove 36.99853s;
+  -webkit-animation: linemove 36.99853s;
+
+}
+[data-speed="4"]{
+  animation: linemove 22.6682s;
+  -webkit-animation: linemove 22.6682s;
+
+}
+[data-speed="5"]{
+  animation: linemove 21.20363s;
+  -webkit-animation: linemove 21.20363s;
+
+}
+[data-speed="6"]{
+  animation: linemove 36.46404s;
+  -webkit-animation: linemove 36.46404s;
+
+}
+[data-speed="7"]{
+  animation: linemove 45.58272s;
+  -webkit-animation: linemove 45.58272s;
+
+}
+[data-speed="8"]{
+  animation: linemove 31.02697s;
+  -webkit-animation: linemove 31.02697s;
+
+}
+[data-speed="9"]{
+  animation: linemove 23.79332s;
+  -webkit-animation: linemove 23.79332s;
+
+}
+[data-speed="10"]{
+  animation: linemove 35.69691s;
+  -webkit-animation: linemove 35.69691s;
+
+}
+[data-speed="11"]{
+  animation: linemove 36.87823s;
+  -webkit-animation: linemove 36.87823s;
+
+}
+[data-speed="12"]{
+  animation: linemove 20.158s;
+  -webkit-animation: linemove 20.158s;
+
+}
+[data-speed="13"]{
+  animation: linemove 17.34752s;
+  -webkit-animation: linemove 17.34752s;
+
+}
+[data-speed="14"]{
+  animation: linemove 22.19251s;
+  -webkit-animation: linemove 22.19251s;
+
+}
+[data-speed="15"]{
+  animation: linemove 25.91683s;
+  -webkit-animation: linemove 25.91683s;
+
+}
+
+
+.cloud{
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count:infinite;
+  animation-timing-function:linear;
+  animation-iteration-count:infinite;
+  -webkit-animation-delay: -50s;
+}
